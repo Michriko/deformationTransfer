@@ -18,7 +18,7 @@ Nachdem abwechselnd Links und Rechts dreiecke ausgewählt wurden (Reihenfolge is
 
 
 Danach sollte man für das ziel Mesh die Adjazenz berechnung mittels des AdjCalc durchführen. 
-(Dieser Schritt dauert sehr lange, da bisher nur ein bruteforce ansatz implementiert ist. Da dies jedoch offline geschehen kann, habe ich hier keine optimierung vorgenommen).
+(Dieser Schritt dauert sehr lange, da bisher nur ein bruteforce ansatz implementiert ist. Da dies jedoch offline geschehen kann und nur einmalig für ein targetMesh durchgeführt werden muss, habe ich hier keine optimierung außer parallelisierung vorgenommen).
 
 
 Der Corressolver versucht nun das targetMesh an das SourceMesh anzupassen und danach ein Mapping aller Triangles herzustellen, 
