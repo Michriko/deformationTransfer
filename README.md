@@ -27,3 +27,11 @@ so dass zu jedem targetTriangle ein Sourcetriangle gemappt ist.
 Das Mapping wird in der resolved_correspondences.csv gespeicher. 
 
 Mit dem Mapping, dem Sourcereference mesh, target reference mesh und dem source deformed mesh lässt sich dann mittels defTrans das Target mesh so verformen, wie das sourceref zu source deformed verformt wurde.
+
+Das deformierte Mesh wird dann als deformed.obj abgespeichert. 
+
+
+In Ordner Testing befindet sich ebenfalls eine Python datei. 
+Mit dem Paket trimesh kann man damit schnell .obj Dateien ansehen. 
+z.B. mit `python3 show_ObjFile.py deformed.obj`
+
