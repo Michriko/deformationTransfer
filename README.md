@@ -1,6 +1,6 @@
 # deformationTransfer
 
-Testing:
+## Testing:
 
 Im Ordner Testing befinden sich skripte, die zeigen, wie die Argumente an die einzelnen Tools übergeben werden sollen. 
 
@@ -35,13 +35,15 @@ In Ordner Testing befindet sich ebenfalls eine Python datei.
 Mit dem Paket trimesh kann man damit schnell .obj Dateien ansehen. 
 z.B. mit `python3 show_ObjFile.py deformed.obj`
 
-*Dependencies*
-UMFPACK (suitesparse) - in external enthalten
-CHOLMOD (suitesparse) - in external enthalten
-eigen3                - nicht enthalten aber über `sudo apt-get install libeigen-dev` installierbar
-pointcloudlib         - nicht enthalten aber über `sudo apt-get install libpcl-dev` installierbar
-openGL und GLUT       - nicht enthalten aber über `sudo apt-get install mesa-utils free-glut3-dev` installierbar
-OpenMP                - nicht enthalten aber über `sudo apt-get install libomp-dev` installierbar
+## Dependencies
+
+* UMFPACK (suitesparse) - in external enthalten
+* CHOLMOD (suitesparse) - in external enthalten
+* eigen3                - nicht enthalten aber über `sudo apt-get install libeigen-dev` installierbar
+* pointcloudlib         - nicht enthalten aber über `sudo apt-get install libpcl-dev` installierbar
+* openGL und GLUT       - nicht enthalten aber über `sudo apt-get install mesa-utils free-glut3-dev` installierbar
+* OpenMP                - nicht enthalten aber über `sudo apt-get install libomp-dev` installierbar
+
    (falls mit CHOLMOD statt mit UMFPACK die least squares probleme gelöst werden)
  
 
